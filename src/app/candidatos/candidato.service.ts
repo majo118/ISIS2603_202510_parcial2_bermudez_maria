@@ -16,5 +16,8 @@ constructor(private http: HttpClient) { }
     return this.http.get<Candidato[]>(this.apiUrl);
   }
 
+  getCandidato(id: string): Observable<Candidato> {
+    return this.http.get<Candidato>(this.apiUrl + "/" + id);
+  }
 
 }

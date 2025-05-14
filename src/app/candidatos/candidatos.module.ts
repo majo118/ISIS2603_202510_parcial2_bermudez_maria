@@ -5,6 +5,7 @@ import { CandidatosDetailComponent } from './candidatos-detail/candidatos-detail
 
 
 
+
 @NgModule({
   declarations: [
     CandidatosListComponent,
